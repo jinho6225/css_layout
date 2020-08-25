@@ -1,47 +1,74 @@
 # css_layout
 
-### FLEXBOX
-- [x] Main Axis and Cross Axis
-- [ ] Column and Row
-- [ ] align-self and order
-- [ ] wrap, nowrap, reverse, align-content
-- [ ] flex-grow, flex-shrink
-- [ ] flex-basis
+### Flexbox:
 
+- [x] flex-direction
+- [x] order
+- [x] justify-content
+- [x] align-items
+- [x] align-self
+- [x] flex-wrap
+- [x] align-content
+- [x] flex-grow
+- [x] flex-shrink
+- [x] flex-basis
 
-### GRID
-- [ ] Life Before Grid
-- [ ] CSS Grid Basic Concepts
-- [ ] Grid Template Areas
-- [ ] Rows and Columns
-- [ ] Shortcuts
-- [ ] Line Naming
-- [ ] Grid Template
-- [ ] Place Items
-- [ ] Place Content
-- [ ]  Auto Columns and Rows
-- [ ]  minmax
-- [ ]  auto-fit auto-fill
-- [ ]  min-content max-content
-- [ ]  Grid Garden part One
-- [ ]  Grid Garden part Two
+### Grid:
 
-###  SCSS
-- [ ] CSS Preprocessors and Set Up
-- [ ] Variables and Nesting
+- [ ] grid-template-columns
+- [ ] grid-template-rows
+- [ ] column-gap
+- [ ] row-gap
+- [ ] gap
+- [ ] grid-template-areas
+- [ ] grid-column-start
+- [ ] grid-column-end
+- [ ] grid-row-start
+- [ ] grid-row-end
+- [ ] grid-column
+- [ ] grid-row
+- [ ] grid-template
+- [ ] justify-items
+- [ ] align-items
+- [ ] place-items
+- [ ] justify-content
+- [ ] align-content
+- [ ] place-content
+- [ ] justify-self
+- [ ] align-self
+- [ ] place-self
+- [ ] grid-auto-rows
+- [ ] grid-auto-flow
+- [ ] grid-auto-columns
+
+#### Keywords & Functions:
+
+- [ ] repeat
+- [ ] fr
+- [ ] minmax
+- [ ] auto-fit
+- [ ] auto-fill
+- [ ] min-content
+- [ ] max-content
+
+### SCSS:
+
+- [ ] Variables
+- [ ] Nesting
 - [ ] Mixins
-- [ ] Extends
-- [ ] Awesome Mixins and Conclusions
+- [ ] Extend
+- [ ] Responsive Mixins
 
-### Clone website
-- [ ] https://besthorrorscenes.com
-- [ ] https://paint-box.com
-- [ ] http://10x19.co/
-- [ ] http://www.z-o-o.fr/
-- [ ] https://schwartzmedia.com.au
-- [ ] https://tolv.dk
-- [ ] https://rodicdavidson.co.uk
-- [ ] https://beige.de
-- [ ] https://donicaida.com
-- [ ] https://canalstreet.market
-- [ ] https://wonhundred.com/
+## To Clone:
+
+- [ ] [https://besthorrorscenes.com/](https://besthorrorscenes.com/)
+- [ ] [https://paint-box.com/](https://paint-box.com/)
+- [ ] [http://10x19.co/](http://10x19.co/)
+- [ ] [http://www.z-o-o.fr/](http://www.z-o-o.fr/)
+- [ ] [https://schwartzmedia.com.au/](https://schwartzmedia.com.au/)
+- [ ] [https://tolv.dk/](https://tolv.dk/)
+- [ ] [https://rodicdavidson.co.uk/](https://rodicdavidson.co.uk/)
+- [ ] [https://beige.de/](https://beige.de/)
+- [ ] [http://donicaida.com/](http://donicaida.com/)
+- [ ] [https://canalstreet.market/](https://canalstreet.market/)
+- [ ] [https://wonhundred.com/](https://wonhundred.com/)
