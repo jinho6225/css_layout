@@ -20,13 +20,13 @@
 - [x] column-gap
 - [x] row-gap
 - [x] gap
-- [ ] grid-template-areas
-- [ ] grid-column-start
-- [ ] grid-column-end
-- [ ] grid-row-start
-- [ ] grid-row-end
-- [ ] grid-column
-- [ ] grid-row
+- [x] grid-template-areas
+- [x] grid-column-start
+- [x] grid-column-end
+- [x] grid-row-start
+- [x] grid-row-end
+- [x] grid-column
+- [x] grid-row
 - [ ] grid-template
 - [ ] justify-items
 - [ ] align-items
