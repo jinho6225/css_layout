@@ -27,13 +27,13 @@
 - [x] grid-row-end
 - [x] grid-column
 - [x] grid-row
-- [ ] grid-template
-- [ ] justify-items
-- [ ] align-items
-- [ ] place-items
-- [ ] justify-content
-- [ ] align-content
-- [ ] place-content
+- [x] grid-template
+- [x] justify-items
+- [x] align-items
+- [x] place-items
+- [x] justify-content
+- [x] align-content
+- [x] place-content
 - [ ] justify-self
 - [ ] align-self
 - [ ] place-self
