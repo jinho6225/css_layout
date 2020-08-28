@@ -34,22 +34,22 @@
 - [x] justify-content
 - [x] align-content
 - [x] place-content
-- [ ] justify-self
-- [ ] align-self
-- [ ] place-self
-- [ ] grid-auto-rows
-- [ ] grid-auto-flow
-- [ ] grid-auto-columns
+- [x] justify-self
+- [x] align-self
+- [x] place-self
+- [x] grid-auto-rows
+- [x] grid-auto-flow
+- [x] grid-auto-columns
 
 #### Keywords & Functions:
 
-- [ ] repeat
-- [ ] fr
-- [ ] minmax
-- [ ] auto-fit
-- [ ] auto-fill
-- [ ] min-content
-- [ ] max-content
+- [x] repeat
+- [x] fr
+- [x] minmax
+- [x] auto-fit
+- [x] auto-fill
+- [x] min-content
+- [x] max-content
 
 ### SCSS:
 
