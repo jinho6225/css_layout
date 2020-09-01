@@ -57,8 +57,8 @@
 - [x] Nesting
 - [x] Partials
 - [x] Mixins
-- [ ] Extend
-- [ ] Responsive Mixins
+- [x] Extend
+- [x] Responsive Mixins
 
 ## To Clone:
 
