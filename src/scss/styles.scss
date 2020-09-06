@@ -1,13 +1,97 @@
-@import "_variables";
-@import "_mixins";
-
-a {
-  margin-bottom: 10px;
-  &:nth-child(odd) {
-    @include link("odd");
+header {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 33%;
+  background-color: #f0f0f0;
+  h1, h4, p{
+    color: #e7473c;
   }
+
+  .title {
+    margin: 30px auto auto 72px;
+    h1 {
+      font-size: 5em;
+      font-weight: 400;
+    }
+  }
+  .headerDiv {
+    margin: auto auto auto 72px;
+
+    h4 {
+      font-size: 1.5em;
+    }
+    ul {
+      padding-left: 0;
+    }
+    li {
+      display: inline-block;
+      text-decoration: none;
+      color: rgba(0,0,0,.6);
+      list-style: none;
+      text-decoration-line: underline;
+      margin: 0 1em .5em 0;
+    }
+  }
+}
+
+main {
+  margin-left: 33%;
+  background-color: #e7473c;
+  color: white;
+
   
-  &:nth-child(even) {
-    @include link("even")
+  .imgContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1) 1%,
+      transparent,
+      transparent,
+      transparent,
+      transparent
+    )
+    #e7473c;
+    
+      .title {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        h3 {
+          font-size: 2rem;
+        }
+        h3, h5 {
+          margin-bottom: 5px;
+        }
+      }
+
+      .img {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        img {
+          width: 100%;
+        }
+      }
+      .enjoy {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end; 
+        p {
+          margin-top: 5px;
+        }
+      }
   }
 }
