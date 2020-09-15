@@ -1,0 +1,135 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 50px repeat(2, minmax(400px, 1fr)) 50px;
+	grid-template-rows: 5vh 90vh 5vh;
+	grid-template-areas: 
+	"header header header header"
+	"left lpic rpic right"
+	"footer footer footer footer"
+}
+
+.header {
+	grid-area: header;
+	background-color: yellow;
+	border: 3px solid red;
+	font-size: 1.7rem;
+	color: orange;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.left {
+	grid-area: left;
+	background-color: red;
+	display: flex;
+	flex-direction: column;
+	font-size: 1.5rem;
+	color: white;
+}
+.left .first {
+	writing-mode: vertical-lr;
+	text-orientation: upright;
+	border: 5px solid yellow;
+    width: 80%;
+		height: 60%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.left .second {
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+	border: 5px solid yellow;
+    width: 80%;
+		height: 40%;
+	text-align: center;
+    line-height: 40px;	
+}
+
+.right {
+	grid-area: right;
+	background-color: green;
+	border: 3px solid yellow;
+	writing-mode: vertical-rl;
+    transform-origin: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5rem;
+	color: white;
+}
+
+.right .first {
+	writing-mode: vertical-lr;
+	text-orientation: upright;
+	border: 5px solid yellow;
+    width: 80%;
+		height: 50%;
+    text-align: center;
+    line-height: 30px;
+}
+
+.right .second {
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+	border: 5px solid yellow;
+    width: 80%;
+		height: 30%;
+	text-align: center;
+    line-height: 30px;
+}
+.right .third {
+	writing-mode: vertical-rl;
+	border: 5px solid yellow;
+    width: 80%;
+		height: 20%;
+	text-align: center;
+    line-height: 30px;
+}
+
+.lpic {
+	grid-area: lpic;
+	background-color: blue;
+	background-image: url(./1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+  	background-position: center;
+
+}
+.rpic {
+	grid-area: rpic;
+	background-color: purple;
+	background-image: url(./2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+  	background-position: center;
+
+  }
+.footer {
+	grid-area: footer;
+	background-color: blueviolet;
+	border: 3px solid yellow;
+	font-size: 1.7rem;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+
+.title {
+	font-size: 12rem;
+	color: white;
+	font-weight: 800;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
