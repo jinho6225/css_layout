@@ -1,0 +1,281 @@
+body {
+    background-color: #AEB8FE;
+    display: flex;
+}
+
+.dice {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: #EFE5DC;
+    margin: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 30px);
+    grid-template-rows: repeat(3, 30px);
+    grid-template-areas:    ". . ."
+                            ". dot ."
+                            ". . .";
+}
+
+.dice .dot {
+    grid-area: dot;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: black;
+    margin: 5px;}
+
+.dice1 {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: #EFE5DC;
+    margin: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 30px);
+    grid-template-rows: repeat(3, 30px);
+    grid-template-areas:    ". . ."
+                            ". dot ."
+                            ". . .";
+}
+.dice1 .dot1 {
+    grid-area: dot;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: black;
+    margin: 5px;}
+
+.dice2 {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: #EFE5DC;
+    margin: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 30px);
+    grid-template-rows: repeat(3, 30px);
+    grid-template-areas:    ". . dot1"
+                            ". . ."
+                            "dot2 . .";
+}
+
+.dice2 .dot2:nth-child(1) {
+    grid-area: dot1;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: black;
+    margin: 5px;}
+.dice2 .dot2:nth-child(2) {
+    grid-area: dot2;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: black;
+    margin: 5px;}
+
+.dice3 {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: #EFE5DC;
+    margin: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 30px);
+    grid-template-rows: repeat(3, 30px);
+    grid-template-areas:    ". . dot1"
+                            ". dot2 ."
+                            "dot3 . .";
+}
+
+.dice3 .dot3:nth-child(1) {
+    grid-area: dot1;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: black;
+    margin: 5px;
+}
+.dice3 .dot3:nth-child(2) {
+    grid-area: dot2;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: black;
+    margin: 5px;
+}
+.dice3 .dot3:nth-child(3) {
+    grid-area: dot3;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: black;
+    margin: 5px;
+}            
+
+.dice4 {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: #EFE5DC;
+    margin: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 30px);
+    grid-template-rows: repeat(3, 30px);
+    grid-template-areas:    "dot1 . dot2"
+                            ". . ."
+                            "dot3 . dot4";
+}
+
+.dice4 .dot4:nth-child(1) {
+    grid-area: dot1;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: black;
+    margin: 5px;
+}
+.dice4 .dot4:nth-child(2) {
+    grid-area: dot2;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: black;
+    margin: 5px;
+}
+.dice4 .dot4:nth-child(3) {
+    grid-area: dot3;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: black;
+    margin: 5px;
+}
+.dice4 .dot4:nth-child(4) {
+    grid-area: dot4;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: black;
+    margin: 5px;
+}
+
+
+.dice5 {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: #EFE5DC;
+    margin: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 30px);
+    grid-template-rows: repeat(3, 30px);
+    grid-template-areas:    "dot1 . dot2"
+                            ". dot3 ."
+                            "dot4 . dot5";
+}
+
+.dice5 .dot5:nth-child(1) {
+    grid-area: dot1;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: black;
+    margin: 5px;
+}
+.dice5 .dot5:nth-child(2) {
+    grid-area: dot2;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: black;
+    margin: 5px;
+}
+.dice5 .dot5:nth-child(3) {
+    grid-area: dot3;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: black;
+    margin: 5px;
+}
+.dice5 .dot5:nth-child(4) {
+    grid-area: dot4;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: black;
+    margin: 5px;
+}
+.dice5 .dot5:nth-child(5) {
+    grid-area: dot5;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: black;
+    margin: 5px;
+} 
+
+.dice6 {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: #EFE5DC;
+    margin: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 30px);
+    grid-template-rows: repeat(3, 30px);
+    grid-template-areas:    "dot1 . dot2"
+                            "dot3 . dot4"
+                            "dot5 . dot6";
+}
+
+.dice6 .dot6:nth-child(1) {
+    grid-area: dot1;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: black;
+    margin: 5px;
+}
+.dice6 .dot6:nth-child(2) {
+    grid-area: dot2;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: black;
+    margin: 5px;
+}
+.dice6 .dot6:nth-child(3) {
+    grid-area: dot3;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: black;
+    margin: 5px;
+}
+.dice6 .dot6:nth-child(4) {
+    grid-area: dot4;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: black;
+    margin: 5px;
+}
+.dice6 .dot6:nth-child(5) {
+    grid-area: dot5;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: black;
+    margin: 5px;
+}
+.dice6 .dot6:nth-child(6) {
+    grid-area: dot6;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: black;
+    margin: 5px;
+}     
