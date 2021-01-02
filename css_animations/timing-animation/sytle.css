@@ -1,0 +1,17 @@
+.box {
+    width: 50px;
+    height: 50px;
+    background: red;
+    border: 1px solid black;
+    animation-name: first-animation;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+}
+
+@keyframes first-animation {
+    0% {width: 50px; height: 50px; background: red;}
+    25% {width: 100px; height: 50px; background: orange;}
+    50% {width: 100px; height: 100px; background: yellow;}
+    75% {width: 50px; height: 100px; background: green;}
+    100% {width: 50px; height: 50px; background: blue;}
+}
