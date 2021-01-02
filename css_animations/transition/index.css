@@ -1,11 +1,10 @@
 .heading {
     color: darkblue;
     font-size: 15px;
-    transition: all 0.5s ease;
+    transition: all 1s ease-in 1s;
 }
 
 .heading:hover {
-    color:red;
-    font-size: 25px;
-    
+    color: green;
+    font-size: 10px;
 }
