@@ -12,17 +12,25 @@ body {
 	height: 300px;
 	display: flex;
 	flex-direction: column;
-	align-content: space-between;
+	align-content: center;
 	justify-content: center;
 }
 
 .firstBox {
     display: flex;
     justify-content: center;
-    background-color: red;
-    width: 30px;
-    height: 30px;
-    animation: rotateBing 1s linear infinite;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    animation: rotateBing 1s ease-in-out infinite ;
+}
+.firstBox .dot{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0px 5px;
 }
 
 @keyframes rotateBing {
@@ -30,6 +38,58 @@ body {
         transform: rotateZ(0);
     }
     100% {
-        transform: rotateZ(360deg);
+        transform: rotateZ(180deg);
+    }
+}
+
+.secondBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto; 
+}
+.secondBox .bar {
+    width: 5px;
+    height: 20px;
+    background-color: white;
+    margin: 0 auto;
+} 
+
+.secondBox .bar:nth-child(1) {
+    animation: makeThemTall 1s ease-in-out infinite ;
+    animation-delay: 50ms;
+} 
+.secondBox .bar:nth-child(2) {
+    animation: makeThemTall 1s ease-in-out infinite ;
+    animation-delay: 100ms;
+} 
+.secondBox .bar:nth-child(3) {
+    animation: makeThemTall 1s ease-in-out infinite ;
+    animation-delay: 150ms;
+} 
+.secondBox .bar:nth-child(4) {
+    animation: makeThemTall 1s ease-in-out infinite ;
+    animation-delay: 200ms;
+} 
+.secondBox .bar:nth-child(5) {
+    animation: makeThemTall 1s ease-in-out infinite ;
+    animation-delay: 250ms;
+} 
+
+
+
+
+
+@keyframes makeThemTall {
+    0% {
+        transform: scaleY(1);
+    }
+    50% {
+        transform: scaleY(2);
+    }
+    100% {
+        transform: scaleY(1);
     }
 }
