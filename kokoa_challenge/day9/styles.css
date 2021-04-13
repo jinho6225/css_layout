@@ -1,0 +1,35 @@
+body {
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+#container {
+	background-color: #6ABCBE;
+	width: 300px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	justify-content: center;
+}
+
+.firstBox {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    animation: rotateBing 1s linear infinite;
+}
+
+@keyframes rotateBing {
+    0% {
+        transform: rotateZ(0);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
