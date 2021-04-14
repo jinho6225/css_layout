@@ -70,7 +70,7 @@ body {
 .control-box {
   display: flex;
   align-items: flex-end;
-  justify-content: space-evenly;
+  justify-content: space-between;
   height: 100px;
 }
 
@@ -113,4 +113,36 @@ body {
   box-shadow: 0 5px 0 black;
   display: flex;
   justify-content: center;
+}
+
+.next-song {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 120px;
+}
+
+.next-song__preview {
+  width: 20%;
+}
+.next-song__preview__image {
+  width: 65px;
+  height: 65px;
+  border: 2px solid black;
+  border-radius: 12px;
+  background-color:indianred;
+}
+.next-song__info {
+  width: 75%;
+}
+
+.next-song__title {
+  font-size: 2em;
+  font-weight: 500;
+  margin-bottom: 0.3em;
+}
+
+.next-song__singer {
+  font-size: 1.2em;
+  color: gray;
 }
