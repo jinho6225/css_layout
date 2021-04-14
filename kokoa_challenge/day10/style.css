@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;    
+  }
+
+body {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.container {
+  width: 410px;
+  height: 880px;
+  border: 5px solid #00C6AC;
+  margin: 5px 5px;
+  padding: 1em;
+
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 100px;
+}
+
+.header .fa-times {
+  width: 30%;
+}
+.header .header__text {
+  width: 70%;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.playing {
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-end;
+  height: 120px;
+}
+
+.playing_img-box {
+  width: 40%;
+}
+.playing__img-box__image {
+  width: 120px;
+  height: 120px;
+  border: 2px solid black;
+  border-radius: 16px;
+  background-color: burlywood;
+}
+.playing-info {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.playing-info__title {
+  font-size: 2.5em;
+  font-weight: 800;
+}
+
+.playing-info__singer {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.control-box {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  height: 100px;
+}
+
+.control-box__play-btn {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  padding: 1em;
+  border-radius: 16px;
+  box-shadow: 0 5px 0 black;
+
+}
+
+.control-box__play-btn .fa-play {
+  margin-right: 15px;
+  
+}
+
+.control-box__play-btn .control-box__play-btn__text {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.control-box__heart-btn {
+  width: 20%;
+  border: 2px solid black;
+  padding: 1em;
+  border-radius: 50%;
+  box-shadow: 0 5px 0 black;
+  display: flex;
+  justify-content: center;
+}
+.control-box__add-btn {
+  width: 20%;
+  border: 2px solid black;
+  padding: 1em;
+  border-radius: 50%;
+  box-shadow: 0 5px 0 black;
+  display: flex;
+  justify-content: center;
+}
