@@ -3,19 +3,17 @@
     box-sizing: border-box;
   }
   body{
+    margin: 8px;
     font-family: 'Baloo Tamma 2', cursive;
-    background-color:#fff;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: 800px;
+    width: 340px;
+    background-color: white;
+    border-radius: 10px;
   }
 
-  .container {
-      width: 340px;
-      height: 780px;
-      background-color: burlywood;
-  }
 
   .header {
       display: flex;
@@ -23,7 +21,8 @@
       align-items: center;
       height: 130px;
       background-color: #F9CE34;
-      padding: 0 15px;
+      padding: 0 15px;      
+      width: 100%;
   }
 
 .header__left {
@@ -46,5 +45,180 @@ justify-content: center;
 }
 
 .search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    width: 320px;
     background-color: white;
+    border-radius: 25px;
+    margin-top: -22.5px;
+    box-shadow: 0px 2px 5px 0px gray;
+    transition: border 0.3s ease-in-out;
+    border: 0px solid gray
+}
+
+.search > span {
+    margin-left: 30px;
+    color: gray;
+}
+.search > i {
+    margin-right: 15px;
+    color: gray;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.header__box__name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 15px 15px 0px;
+    padding: 10px 0px 10px 0px;
+    border-radius: 5px;
+    transition: color, background-color 0.3s ease-in-out;
+    color: white;
+}
+
+.header__box__name > span:nth-child(1) {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: -6px;
+    color: black;
+}
+
+.header__box__book {
+    margin-top: -5px;
+    display: flex;
+}
+.header__box__book__img {
+    height: 160px;
+    width: 105px;
+    border-radius: 10px;
+    background-color: #F9CE35;
+}
+.header__box__book__info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.header__box__book__info > p:first-child {
+    font-size: 18px;
+    font-weight: 600;
+}
+.header__box__book__info > p:last-child {
+    font-size: 13px;
+    font-weight: 600;
+    color: gray;
+    margin-top: 5px;
+}
+.header__box__book__info__star {
+    width: 100%;
+    margin-top: 5px;
+}
+.header__box__book__info__star > svg {
+    color: #F9CE35;
+    height: 16px;
+    width: 16px;
+    margin-right: -5px;
+}
+.header__box__book__info__star > svg:last-child {
+    color: gray;
+}
+.header__box__book__info__keyword > button {
+    height: 25px;
+    background-color: gray;
+    border-radius: 5px;
+    margin: 12px 3px 0px 0px;
+    transition: background-color 0.3s ease-in-out;
+}
+.header__box__book__info__btn {
+    margin-top: 12px;
+}
+.header__box__book__info__btn > button:first-child {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: none;
+    background-color: #F9CE35;
+    transition: background-color 0.3s ease-in-out;
+}
+.header__box__book__info__btn > button:last-child {
+    height: 35px;
+    width: 100px;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    margin-left: 35px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.top-list__book-list {
+    margin-top: -5px;
+    display: flex;
+}
+.top-list__book-list__book {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    margin-right: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+.top-list__book-list__book > .img {
+    height: 100px;
+    width: 70px;
+    border-radius: 5px;
+    background-color: #F9CE35;
+}
+.top-list__book-list__book__info__star {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60px;
+}
+.top-list__book-list__book__info__star > svg {
+    color: #F9CE35;;
+    height: 12px;
+    width: 12px;
+    margin-top: 10px;
+}
+.top-list__book-list__book__info__star > svg:last-child {
+    color: gray;
+}
+.author__info {
+    display: flex;
+}
+.author__img {
+    width: 105px;
+    height: 130px;
+    border-radius: 10px;
+    background-color: #F9CE35;
+}
+
+.author__information {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.author__information > span:first-child {
+    font-size: 20px;
+    font-weight: 700;
+}
+.author__information > span:last-child {
+    font-size: 13px;
+    font-weight: 600;
+    color: lightgray;
+    margin-top: 5px;
+    width: 200px;
 }
