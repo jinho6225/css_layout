@@ -4,14 +4,14 @@
 }
 body {  
   font-family: "Baloo Tamma 2", cursive;
-  background-color: #F7F7F7;
+  background-color: #cdcdcd;
   display: flex;
   justify-content: space-evenly;
   padding: 3em 0;
 }
 
 .outer-container {
-  background-color:  rgb(242, 242, 242);
+  background-color:  rgb(250, 245, 245);
   width: 270px;
   height: 600px;
   border-radius: 24px;
@@ -173,4 +173,95 @@ align-items: center;
 }
 .playbar__control-panel span i {
   color: white;
+}
+
+.album {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.album__image {
+  width: 200px;
+  height: 200px;
+  background-color: #F3A07A;
+  border-radius: 25px;
+  box-shadow: 0px 15px 15px #f0cebe
+}
+
+.album__title {
+  margin-top: 2em;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+.album__singer {
+  margin-top: 0.8em;
+  font-size: 0.8em;
+  color: lightgray;
+}
+
+.play-range-box {
+  display: flex;
+  flex-direction: column;
+  margin: 2em 0.5em 0em;
+  padding: 0.5em 1em;
+    box-sizing: border-box;
+}
+.play-range-box__running-hour {
+  display: flex;
+  justify-content: space-between;
+}
+.play-range-box__running-hour span {
+  font-size: 0.7em;
+  color: lightgray;
+}
+
+.play-range-box__range {
+  position: relative;  
+}
+
+input[type="range" i] {
+  width: 100%;
+  appearance: none;
+  background-color: transparent;
+  height: 5px;
+  background-color: lightgray;
+  border-radius: 16px;
+  margin: 0;
+    
+}
+.black-line {
+  height: 5px;
+  width: 110px;
+  background-color: black;
+  position: absolute;
+  border-radius: 16px;
+  top: 6px;
+}
+input[type="range" i]:focus {
+  outline: none;
+}
+input[type=range i]::-webkit-slider-thumb  {
+  -webkit-appearance: none;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.control-bar {
+  margin-top: 2em;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2em 0.5em 0em;
+  padding: 0.5em 1em;
+}
+
+.control-bar span {
+  display: block;
+}
+.control-bar span:first-child, span:last-child {
+  color: lightgray
 }
