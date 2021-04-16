@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;600;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {  
+  font-family: "Baloo Tamma 2", cursive;
+  background-color: #F7F7F7;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3em 0;
+}
+
+.outer-container {
+  background-color:  rgb(242, 242, 242);
+  width: 270px;
+  height: 600px;
+  border-radius: 24px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dashboard__image {
+  width: 65px;
+  height: 65px;
+  background-color: #F3A07A;
+  border-radius: 50%;
+  box-shadow: 0px 5px 10px #f0cebe
+}
+.dashboard__title {
+  color:rgb(40, 40, 40, 0.8);
+  margin-top: 1em;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+.dashboard__category {
+  font-size: 0.9em;
+  color: lightgray;
+  margin-top: 1em;
+}
+.dashboard__btn-box {
+  width: 100%;
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-evenly;
+}
+.dashboard__btn-box button:first-child {
+  font-size: 0.8em;
+  padding: 0.8em 2em;
+  width: 90px;
+  height: 35px;
+  background-color: black;
+  color: lightgray;
+  border-radius: 20px;
+  border: none;
+}
+.dashboard__btn-box button:last-child {
+  font-size: 0.8em;
+  width: 90px;
+  height: 35px;
+  background-color: rgba(237, 227, 227, 0.9);
+  border-radius: 20px;
+  border: none;
+}
+.dashboard__btn-box__text {
+  color: lightgray;
+}
+
+.fa-heart {
+  color: rgb(20, 20, 20, 0.6);
+  margin-right: 5px;
+}
+
+.play-list {
+  margin-top: 1.5em;
+}
+
+
+.play-list__li {
+  margin: 0.2em 0.8em;
+  display: flex;
+  padding: 0.4em 1em;
+  align-items: center;
+}
+
+.play-list__li:nth-child(2) {
+  background-color: white;
+  border: none;
+  box-shadow: 0px 10px 10px #eefdff;
+  border-radius: 16px;
+}
+
+.play-list__li__image {
+  width: 20%;
+}
+.play-list__li__image .image {
+  width: 35px;
+  height: 35px;
+  background-color: lightpink;
+  border-radius: 8px;
+  border: none;
+}
+
+.play-list__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+.play-list__information {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0.3em;
+}
+.play-list__information__singer {
+  font-size: 0.8em;
+  color: lightgray;
+}
+.play-list__information__title {
+  margin-top: 0.3em;
+  font-size: 0.9em;
+  color: black;
+}
+
+.play-list__option-icon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.play-list__option-icon .fa-ellipsis-v {
+  color: lightgray;
+}
+
+.playbar {
+  background-color: black;
+  width: 250px;
+  height: 55px;
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin: 0 auto;
+  display: flex;
+}
+.playbar__song-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+    align-items: flex-start;
+    width: 50%;
+
+}
+.playbar__song-info__singer {
+  color: lightgray;
+  font-size: 0.7em;
+
+}
+.playbar__song-info__title {
+  color: rgb(242, 242, 242);
+  font-size: 0.8em;
+}
+.playbar__control-panel {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+align-items: center;
+}
+.playbar__control-panel span i {
+  color: white;
+}
